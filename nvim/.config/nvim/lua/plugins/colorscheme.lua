@@ -64,7 +64,7 @@ return {
     name = "evergarden",
     priority = 1000, -- Colorscheme plugin is loaded first before any other plugins
     config = function()
-      vim.cmd("colorscheme evergarden")
+      vim.cmd("colorscheme evergarden-fall")
     end,
     opts = {
       theme = {
